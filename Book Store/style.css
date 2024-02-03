@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Start Section */
+section 
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+section nav 
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background: #fff;
+box-shadow: 0 0 10px #089da1; 
+left: 0;
+z-index: 100;
+}
+section nav .logo img
+{
+    width: 100px;
+    margin: 10px 0;
+}
+section nav ul
+{
+    list-style: none;
+}
+section nav li
+{
+display: inline-block;
+padding: 0 10px;
+}
+section nav li a 
+{
+    text-decoration: none;
+    color: #000;
+}
+section nav li a:hover
+{
+    color:#089da1;  
+}
+section .main_tag
+{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    top: 10%;
+}
+section .main_tag .main_text h1 
+{
+    position: relative;
+    font-size: 55px;
+    top: 40px;
+    left: 50px;
+}
+section .main_tag .main_text h1 span
+{
+    color: #089da1;
+} 
+section .main_tag .main_text p
+{
+    width:550px;
+    position: relative;
+    text-align: block;
+    top: 80px;
+    left: 50px;
+    line-height:2.5;
+}
+section .main_tag .main_text a
+{
+    background-color: #089da1;
+    padding: 10px 20px;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+section .main_tag .main_img img 
+{
+    width: 750px;
+    position: relative;
+    top: 90px;
+}
+
+/* End  Section */

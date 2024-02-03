@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.row
+{
+    padding: 0 !important;
+}
+.col-md-8,.col-md-4
+{
+    margin: initial !important;
+}
+.image-box
+{
+    text-align: center;
+    height: 550px;
+    background-image: url(music.jpg);
+    background-size:cover;
+    background-position: center;
+    
+}
+.image-box h1{
+    color: #fff;
+    font-size: 70px;
+    padding-top: 200px;
+}
+.contain
+{
+    height: 100%;
+}
+.menu 
+{
+    padding: 45px 12px 0;
+    border-bottom: 5px solid rgb(255, 0, 234);
+}
+.menu button
+{
+    background:transparent;
+    border: none;
+outline: none;
+padding: 0 15px 20px 10px;
+    margin: 0 15px;
+}
+.form-box
+{
+    height:200px;
+    width: 95%;
+    text-align: center;
+    margin-top: 20px;
+}
+.form-box h1{
+    margin-bottom: 50px;
+    color: rgb(197, 139, 192);
+}
+.form-box input{
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+    padding: 5px 5px;
+    background: transparent;
+    border-bottom: 2px solid rgb(255, 0, 234);
+}
+.form-box button{
+    text-align: center;
+padding: 10px;
+border: none;
+outline: none;
+font-weight: 600;
+border-radius: 50px;
+color: #fff;
+background: #c200ff;
+
+
+}
+
