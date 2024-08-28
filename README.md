@@ -1,1 +1,1 @@
-# Some of my project when i learned Html  +  Css 
+# Some of my project when I  was learning Html  +  Css 
